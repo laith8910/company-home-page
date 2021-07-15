@@ -1,0 +1,53 @@
+
+
+/*header section*/
+
+header {
+    font-family: 'Encode Sans SC', sans-serif;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr 3fr 1fr 1fr 1fr;
+    height: 80px;
+    background-color: #fff;
+    color: #353535;
+}
+
+header h1 {
+    grid-column: 1/2;
+}
+
+header h5{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#spaces {
+    grid-column: 3/4;
+    text-align: center;
+}
+
+#features {
+    grid-column: 4/5;
+    text-align: center;
+}
+
+#contact {
+    grid-column: 5/6;
+    text-align: center;
+}
+
+@media only screen and (max-width: 420px) {
+    header h5 {
+        display: none;
+        background-color: pink;
+    }
+    html{
+        background-color: pink;
+    }
+}
+
+/* banner section */
+
+video {
+width: 100%;
+}
