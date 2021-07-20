@@ -10,6 +10,16 @@ h2 {
   text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+.subtitle {
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+}
+
 /*header section*/
 
 header {
@@ -30,19 +40,20 @@ header h1 {
 header h5 {
   font-size: 20px;
   text-decoration: underline;
+  color: #353535 !important;
 }
 
-#spaces {
+#spaces-title {
   grid-column: 3/4;
   text-align: center;
 }
 
-#features {
+#features-title {
   grid-column: 4/5;
   text-align: center;
 }
 
-#contact {
+#contact-title {
   grid-column: 5/6;
   text-align: center;
 }
@@ -216,30 +227,29 @@ video {
 /* inquire section */
 
 #inquire h2 {
-    text-align: center !important;
-    margin-left: 12px;
+  text-align: center !important;
+  margin-left: 12px;
 }
 
-#contacts { 
-    display: flex;
-    flex-flow: row wrap;
-    width: 95%;
-    margin: 0px auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+#contacts {
+  display: flex;
+  flex-flow: row wrap;
+  width: 95%;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-
 
 #logos img {
-    width: 35px;
-    height: 35px;
-    margin: 15px 5px !important ;
+  width: 35px;
+  height: 35px;
+  margin: 15px 5px !important ;
 }
 
-#inquire p , #inquire img {
-    margin: 15px;
+#inquire p,
+#inquire img {
+  margin: 15px;
 }
 
 #inquire p {
