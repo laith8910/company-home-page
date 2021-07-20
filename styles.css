@@ -75,12 +75,29 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    align-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    
 }
 
 .box img {
     width: 300px;
     height: 200px;
-    flex: 1 1 ;
+
+}
+
+.box p {
+    margin-top: 8px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
